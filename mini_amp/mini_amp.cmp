@@ -1,0 +1,139 @@
+Cmp-Mod V01 Created by PcbNew   date = Sun 17 Jan 2016 03:47:44 PM PST
+
+BeginCmp
+TimeStamp = 569C230F
+Path = /569C2287
+Reference = C1;
+ValeurCmp = 10 uF/16V;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeR_EIA-2012;
+EndCmp
+
+BeginCmp
+TimeStamp = 569C231B
+Path = /569C22BC
+Reference = C2;
+ValeurCmp = 100 nF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 569C2327
+Path = /569C378F
+Reference = C3;
+ValeurCmp = 100 nF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 569C2330
+Path = /569BF9B6
+Reference = K1;
+ValeurCmp = SMA F R/A;
+IdModule  = minicircuits:SMA_F_RA;
+EndCmp
+
+BeginCmp
+TimeStamp = 569C2339
+Path = /569C519C
+Reference = K2;
+ValeurCmp = SMA F R/A;
+IdModule  = minicircuits:SMA_F_RA;
+EndCmp
+
+BeginCmp
+TimeStamp = 569C2345
+Path = /569C28E4
+Reference = L1;
+ValeurCmp = Ferrite;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 569C2351
+Path = /569BFC06
+Reference = R1;
+ValeurCmp = 100;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 569C235D
+Path = /569BFCE6
+Reference = R2;
+ValeurCmp = 100;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 569C2369
+Path = /569C0A5D
+Reference = R3;
+ValeurCmp = 1K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 569C2375
+Path = /569C2114
+Reference = R4;
+ValeurCmp = 1K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 569C2381
+Path = /569C1EA7
+Reference = R5;
+ValeurCmp = 1K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 569C238D
+Path = /569C1D63
+Reference = R6;
+ValeurCmp = 1K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 569C2399
+Path = /569C2EB2
+Reference = R7;
+ValeurCmp = 4R99;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 569C23A5
+Path = /569C2F0F
+Reference = R8;
+ValeurCmp = 4R99;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 569C23AE
+Path = /569BF820
+Reference = T1;
+ValeurCmp = TC4-1T;
+IdModule  = minicircuits:TC4-1T;
+EndCmp
+
+BeginCmp
+TimeStamp = 569C23B8
+Path = /569C2F46
+Reference = T2;
+ValeurCmp = ADT1.5-1;
+IdModule  = minicircuits:ADT1.5-1;
+EndCmp
+
+BeginCmp
+TimeStamp = 569C23CB
+Path = /569C088B
+Reference = U1;
+ValeurCmp = OPA26741C;
+IdModule  = SMD_Packages:SOIC-8-N;
+EndCmp
+
+EndListe

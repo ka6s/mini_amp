@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name minicircuits)(type KiCad)(uri /home/stevew/mini_amp/mini_amp/minicircuits.pretty)(options "")(descr ""))
+)

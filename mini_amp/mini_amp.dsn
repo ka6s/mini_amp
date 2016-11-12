@@ -1,0 +1,268 @@
+(pcb /home/stevew/mini_amp/mini_amp/mini_amp.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.1-3.201512221401+6198~38~ubuntu15.10.1-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (rect pcb 97007 -90678.8 182418 -128795)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "Capacitors_Tantalum_SMD:TantalC_SizeR_EIA-2012"
+      (place C1 135153 -99720.4 front 0 (PN "10 uF/16V"))
+    )
+    (component Capacitors_SMD:C_0805
+      (place C2 135306 -94335.6 front 180 (PN "100 nF"))
+      (place C3 154619 -119507 front 180 (PN "100 nF"))
+    )
+    (component minicircuits:SMA_F_RA
+      (place K1 108712 -109931 front 180 (PN "SMA F R/A"))
+      (place K2 170713 -109398 front 0 (PN "SMA F R/A"))
+    )
+    (component Capacitors_SMD:C_0805_HandSoldering
+      (place L1 116815 -93903.8 front 180 (PN Ferrite))
+    )
+    (component Resistors_ThroughHole:Resistor_Horizontal_RM10mm
+      (place R1 142291 -111354 front 0 (PN 100))
+      (place R2 141554 -107442 front 0 (PN 100))
+      (place R3 149123 -103073 front 180 (PN 1K))
+      (place R4 123952 -94056.2 front 270 (PN 1K))
+      (place R5 138354 -115291 front 270 (PN 1K))
+      (place R6 123800 -120802 front 90 (PN 1K))
+      (place R7 133553 -117170 front 270 (PN 4R99))
+      (place R8 128168 -114859 front 270 (PN 4R99))
+    )
+    (component "minicircuits:TC4-1T"
+      (place T1 161011 -110592 front 90 (PN "TC4-1T"))
+    )
+    (component "SMD_Packages:SOIC-8-N"
+      (place U1 132029 -108509 front 90 (PN OPA26741C))
+    )
+  )
+  (library
+    (image "Capacitors_Tantalum_SMD:TantalC_SizeR_EIA-2012"
+      (outline (path signal 150  635 635  635 -635))
+      (outline (path signal 150  -1016 635  -1016 -635))
+      (outline (path signal 150  -1016 -635  1016 -635))
+      (outline (path signal 150  1016 -635  1016 635))
+      (outline (path signal 150  1016 635  -1016 635))
+      (pin Rect[T]Pad_1549.4x1800.86_um 1 1176.02 0)
+      (pin Rect[T]Pad_1549.4x1800.86_um 2 -1176.02 0)
+    )
+    (image Capacitors_SMD:C_0805
+      (outline (path signal 50  -1800 1000  1800 1000))
+      (outline (path signal 50  -1800 -1000  1800 -1000))
+      (outline (path signal 50  -1800 1000  -1800 -1000))
+      (outline (path signal 50  1800 1000  1800 -1000))
+      (outline (path signal 150  500 850  -500 850))
+      (outline (path signal 150  -500 -850  500 -850))
+      (pin Rect[T]Pad_1000x1250_um 1 -1000 0)
+      (pin Rect[T]Pad_1000x1250_um 2 1000 0)
+    )
+    (image minicircuits:SMA_F_RA
+      (outline (path signal 150  5080 3810  10160 3810))
+      (outline (path signal 150  10160 3810  11430 3810))
+      (outline (path signal 150  11430 3810  11430 -3810))
+      (outline (path signal 150  11430 -3810  5080 -3810))
+      (outline (path signal 150  6475.76 0  6158.81 -2001.12  5239 -3806.35  3806.35 -5239
+            2001.12 -6158.81  0 -6475.76  -2001.12 -6158.81  -3806.35 -5239
+            -5239 -3806.35  -6158.81 -2001.12  -6475.76 0  -6158.81 2001.12
+            -5239 3806.35  -3806.35 5239  -2001.12 6158.81  0 6475.76  2001.12 6158.81
+            3806.35 5239  5239 3806.35  6158.81 2001.12))
+      (pin Round[A]Pad_3048_um 1 0 0)
+      (pin Round[A]Pad_3048_um 2 2540 2540)
+      (pin Round[A]Pad_3048_um 3 2540 -2540)
+      (pin Round[A]Pad_3048_um 4 -2540 -2540)
+      (pin Round[A]Pad_3048_um 5 -2540 2540)
+    )
+    (image Capacitors_SMD:C_0805_HandSoldering
+      (outline (path signal 50  -2300 1000  2300 1000))
+      (outline (path signal 50  -2300 -1000  2300 -1000))
+      (outline (path signal 50  -2300 1000  -2300 -1000))
+      (outline (path signal 50  2300 1000  2300 -1000))
+      (outline (path signal 150  500 850  -500 850))
+      (outline (path signal 150  -500 -850  500 -850))
+      (pin Rect[T]Pad_1500x1250_um 1 -1250 0)
+      (pin Rect[T]Pad_1500x1250_um 2 1250 0)
+    )
+    (image Resistors_ThroughHole:Resistor_Horizontal_RM10mm
+      (outline (path signal 50  -1250 1500  11400 1500))
+      (outline (path signal 50  -1250 -1500  -1250 1500))
+      (outline (path signal 50  11400 1500  11400 -1500))
+      (outline (path signal 50  -1250 -1500  11400 -1500))
+      (outline (path signal 150  2540 1270  7620 1270))
+      (outline (path signal 150  7620 1270  7620 -1270))
+      (outline (path signal 150  7620 -1270  2540 -1270))
+      (outline (path signal 150  2540 -1270  2540 1270))
+      (outline (path signal 150  2540 0  1270 0))
+      (outline (path signal 150  7620 0  8890 0))
+      (pin Round[A]Pad_1998.98_um 1 0 0)
+      (pin Round[A]Pad_1998.98_um 2 10160 0)
+    )
+    (image "minicircuits:TC4-1T"
+      (outline (path signal 150  -450 1300  -450 1600))
+      (outline (path signal 150  -450 1600  -350 1600))
+      (outline (path signal 150  -350 1350  -350 1600))
+      (outline (path signal 150  -350 1600  -550 1600))
+      (outline (path signal 150  -550 1600  -500 1400))
+      (outline (path signal 150  -635 1270  3175 1270))
+      (outline (path signal 150  3175 1270  3175 1905))
+      (outline (path signal 150  3175 1905  -635 1905))
+      (outline (path signal 150  -635 1905  -635 1270))
+      (pin Rect[T]Pad_760x1650_um 5 0 0)
+      (pin Rect[T]Pad_760x1650_um 4 2540 0)
+      (pin Rect[T]Pad_760x1650_um 1 0 3175)
+      (pin Rect[T]Pad_760x1650_um 2 1270 3175)
+      (pin Rect[T]Pad_760x1650_um 3 2540 3175)
+    )
+    (image "SMD_Packages:SOIC-8-N"
+      (outline (path signal 150  -2540 2286  2540 2286))
+      (outline (path signal 150  2540 2286  2540 -2286))
+      (outline (path signal 150  2540 -2286  -2540 -2286))
+      (outline (path signal 150  -2540 -2286  -2540 2286))
+      (outline (path signal 150  -2540 762  -2032 762))
+      (outline (path signal 150  -2032 762  -2032 -508))
+      (outline (path signal 150  -2032 -508  -2540 -508))
+      (pin Rect[T]Pad_508x1143_um 8 -1905 3175)
+      (pin Rect[T]Pad_508x1143_um 7 -635 3175)
+      (pin Rect[T]Pad_508x1143_um 6 635 3175)
+      (pin Rect[T]Pad_508x1143_um 5 1905 3175)
+      (pin Rect[T]Pad_508x1143_um 4 1905 -3175)
+      (pin Rect[T]Pad_508x1143_um 3 635 -3175)
+      (pin Rect[T]Pad_508x1143_um 2 -635 -3175)
+      (pin Rect[T]Pad_508x1143_um 1 -1905 -3175)
+    )
+    (padstack Round[A]Pad_1998.98_um
+      (shape (circle F.Cu 1998.98))
+      (shape (circle B.Cu 1998.98))
+      (attach off)
+    )
+    (padstack Round[A]Pad_3048_um
+      (shape (circle F.Cu 3048))
+      (shape (circle B.Cu 3048))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_508x1143_um
+      (shape (rect F.Cu -254 -571.5 254 571.5))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_760x1650_um
+      (shape (rect F.Cu -380 -825 380 825))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1000x1250_um
+      (shape (rect F.Cu -500 -625 500 625))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1500x1250_um
+      (shape (rect F.Cu -750 -625 750 625))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1549.4x1800.86_um
+      (shape (rect F.Cu -774.7 -900.43 774.7 900.43))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(C1-Pad1)"
+      (pins C1-1 C2-1 L1-1 R4-1 U1-8)
+    )
+    (net GND
+      (pins C1-2 C2-2 K1-2 K1-3 K1-4 K1-5 K2-2 K2-3 K2-4 K2-5 R3-2 T1-4 U1-4)
+    )
+    (net "Net-(C3-Pad1)"
+      (pins C3-1 K2-1)
+    )
+    (net "Net-(C3-Pad2)"
+      (pins C3-2)
+    )
+    (net "Net-(K1-Pad1)"
+      (pins K1-1)
+    )
+    (net +12V
+      (pins L1-2)
+    )
+    (net "Net-(R1-Pad1)"
+      (pins R1-1 R5-2 U1-2)
+    )
+    (net "Net-(R1-Pad2)"
+      (pins R1-2 T1-1)
+    )
+    (net "Net-(R2-Pad1)"
+      (pins R2-1 R6-2 U1-6)
+    )
+    (net "Net-(R2-Pad2)"
+      (pins R2-2 T1-3)
+    )
+    (net "Net-(R3-Pad1)"
+      (pins R3-1 R4-2 U1-5 U1-3)
+    )
+    (net "Net-(R5-Pad1)"
+      (pins R5-1 R7-1 U1-1)
+    )
+    (net "Net-(R6-Pad1)"
+      (pins R6-1 R8-2 U1-7)
+    )
+    (net "Net-(R7-Pad2)"
+      (pins R7-2)
+    )
+    (net "Net-(R8-Pad1)"
+      (pins R8-1)
+    )
+    (net "Net-(T1-Pad2)"
+      (pins T1-2)
+    )
+    (class kicad_default "" "Net-(C3-Pad1)" "Net-(C3-Pad2)" "Net-(K1-Pad1)"
+      "Net-(R1-Pad1)" "Net-(R1-Pad2)" "Net-(R2-Pad1)" "Net-(R2-Pad2)" "Net-(R3-Pad1)"
+      "Net-(R5-Pad1)" "Net-(R6-Pad1)" "Net-(R7-Pad2)" "Net-(R8-Pad1)" "Net-(T1-Pad2)"
+      "Net-(T2-Pad2)"
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+    (class power +12V GND "Net-(C1-Pad1)"
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 508)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

@@ -1,0 +1,184 @@
+Info: Reading netlist file "/home/stevew/mini_amp/mini_amp/mini_amp.net".
+
+Info: Using references to match components and footprints.
+
+Info: Checking netlist component footprint "C1:/569C2287:Capacitors_Tantalum_SMD:TantalC_SizeR_EIA-2012".
+
+Adding new component "C1:/569C2287" footprint "Capacitors_Tantalum_SMD:TantalC_SizeR_EIA-2012".
+
+Changing component "C1:/569C2287" pin "1" net name from "" to "Net-(C1-Pad1)".
+
+Changing component "C1:/569C2287" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C2:/569C22BC:Capacitors_SMD:C_0805".
+
+Adding new component "C2:/569C22BC" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C2:/569C22BC" pin "1" net name from "" to "Net-(C1-Pad1)".
+
+Changing component "C2:/569C22BC" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C3:/569C378F:Capacitors_SMD:C_0805".
+
+Adding new component "C3:/569C378F" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C3:/569C378F" pin "1" net name from "" to "Net-(C3-Pad1)".
+
+Changing component "C3:/569C378F" pin "2" net name from "" to "Net-(C3-Pad2)".
+
+Info: Checking netlist component footprint "K1:/569BF9B6:minicircuits:SMA_F_RA".
+
+Adding new component "K1:/569BF9B6" footprint "minicircuits:SMA_F_RA".
+
+Changing component "K1:/569BF9B6" pin "1" net name from "" to "Net-(K1-Pad1)".
+
+Changing component "K1:/569BF9B6" pin "2" net name from "" to "GND".
+
+Changing component "K1:/569BF9B6" pin "3" net name from "" to "GND".
+
+Changing component "K1:/569BF9B6" pin "4" net name from "" to "GND".
+
+Changing component "K1:/569BF9B6" pin "5" net name from "" to "GND".
+
+Info: Checking netlist component footprint "K2:/569C519C:minicircuits:SMA_F_RA".
+
+Adding new component "K2:/569C519C" footprint "minicircuits:SMA_F_RA".
+
+Changing component "K2:/569C519C" pin "1" net name from "" to "Net-(C3-Pad1)".
+
+Changing component "K2:/569C519C" pin "2" net name from "" to "GND".
+
+Changing component "K2:/569C519C" pin "3" net name from "" to "GND".
+
+Changing component "K2:/569C519C" pin "4" net name from "" to "GND".
+
+Changing component "K2:/569C519C" pin "5" net name from "" to "GND".
+
+Info: Checking netlist component footprint "L1:/569C28E4:Capacitors_SMD:C_0805_HandSoldering".
+
+Adding new component "L1:/569C28E4" footprint "Capacitors_SMD:C_0805_HandSoldering".
+
+Changing component "L1:/569C28E4" pin "1" net name from "" to "Net-(C1-Pad1)".
+
+Changing component "L1:/569C28E4" pin "2" net name from "" to "+12V".
+
+Info: Checking netlist component footprint "P1:/569C7D10:Connectors_Molex:Connector_Microfit3_Header_02x01_Angled_43045-020x".
+
+Adding new component "P1:/569C7D10" footprint "Connectors_Molex:Connector_Microfit3_Header_02x01_Angled_43045-020x".
+
+Changing component "P1:/569C7D10" pin "2" net name from "" to "GND".
+
+Changing component "P1:/569C7D10" pin "1" net name from "" to "+12V".
+
+Info: Checking netlist component footprint "R1:/569BFC06:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "R1:/569BFC06" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "R1:/569BFC06" pin "1" net name from "" to "Net-(R1-Pad1)".
+
+Changing component "R1:/569BFC06" pin "2" net name from "" to "Net-(R1-Pad2)".
+
+Info: Checking netlist component footprint "R2:/569BFCE6:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "R2:/569BFCE6" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "R2:/569BFCE6" pin "1" net name from "" to "Net-(R2-Pad1)".
+
+Changing component "R2:/569BFCE6" pin "2" net name from "" to "Net-(R2-Pad2)".
+
+Info: Checking netlist component footprint "R3:/569C0A5D:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "R3:/569C0A5D" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "R3:/569C0A5D" pin "1" net name from "" to "Net-(R3-Pad1)".
+
+Changing component "R3:/569C0A5D" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "R4:/569C2114:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "R4:/569C2114" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "R4:/569C2114" pin "1" net name from "" to "Net-(C1-Pad1)".
+
+Changing component "R4:/569C2114" pin "2" net name from "" to "Net-(R3-Pad1)".
+
+Info: Checking netlist component footprint "R5:/569C1EA7:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "R5:/569C1EA7" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "R5:/569C1EA7" pin "1" net name from "" to "Net-(R5-Pad1)".
+
+Changing component "R5:/569C1EA7" pin "2" net name from "" to "Net-(R1-Pad1)".
+
+Info: Checking netlist component footprint "R6:/569C1D63:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "R6:/569C1D63" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "R6:/569C1D63" pin "1" net name from "" to "Net-(R6-Pad1)".
+
+Changing component "R6:/569C1D63" pin "2" net name from "" to "Net-(R2-Pad1)".
+
+Info: Checking netlist component footprint "R7:/569C2EB2:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "R7:/569C2EB2" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "R7:/569C2EB2" pin "1" net name from "" to "Net-(R5-Pad1)".
+
+Changing component "R7:/569C2EB2" pin "2" net name from "" to "Net-(R7-Pad2)".
+
+Info: Checking netlist component footprint "R8:/569C2F0F:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "R8:/569C2F0F" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "R8:/569C2F0F" pin "1" net name from "" to "Net-(R8-Pad1)".
+
+Changing component "R8:/569C2F0F" pin "2" net name from "" to "Net-(R6-Pad1)".
+
+Info: Checking netlist component footprint "T1:/569BF820:minicircuits:TC4-1T".
+
+Adding new component "T1:/569BF820" footprint "minicircuits:TC4-1T".
+
+Changing component "T1:/569BF820" pin "5" net name from "" to "Net-(K1-Pad1)".
+
+Changing component "T1:/569BF820" pin "4" net name from "" to "GND".
+
+Changing component "T1:/569BF820" pin "1" net name from "" to "Net-(R1-Pad2)".
+
+Changing component "T1:/569BF820" pin "2" net name from "" to "Net-(T1-Pad2)".
+
+Changing component "T1:/569BF820" pin "3" net name from "" to "Net-(R2-Pad2)".
+
+Info: Checking netlist component footprint "T2:/569C2F46:minicircuits:ADT1.5-1".
+
+Adding new component "T2:/569C2F46" footprint "minicircuits:ADT1.5-1".
+
+Changing component "T2:/569C2F46" pin "1" net name from "" to "Net-(R7-Pad2)".
+
+Changing component "T2:/569C2F46" pin "2" net name from "" to "Net-(T2-Pad2)".
+
+Changing component "T2:/569C2F46" pin "3" net name from "" to "Net-(R8-Pad1)".
+
+Changing component "T2:/569C2F46" pin "4" net name from "" to "GND".
+
+Changing component "T2:/569C2F46" pin "5" net name from "" to "Net-(C3-Pad2)".
+
+Info: Checking netlist component footprint "U1:/569C088B:SMD_Packages:SOIC-8-N".
+
+Adding new component "U1:/569C088B" footprint "SMD_Packages:SOIC-8-N".
+
+Changing component "U1:/569C088B" pin "8" net name from "" to "Net-(C1-Pad1)".
+
+Changing component "U1:/569C088B" pin "7" net name from "" to "Net-(R6-Pad1)".
+
+Changing component "U1:/569C088B" pin "6" net name from "" to "Net-(R2-Pad1)".
+
+Changing component "U1:/569C088B" pin "5" net name from "" to "Net-(R3-Pad1)".
+
+Changing component "U1:/569C088B" pin "4" net name from "" to "GND".
+
+Changing component "U1:/569C088B" pin "3" net name from "" to "Net-(R3-Pad1)".
+
+Changing component "U1:/569C088B" pin "2" net name from "" to "Net-(R1-Pad1)".
+
+Changing component "U1:/569C088B" pin "1" net name from "" to "Net-(R5-Pad1)".
+
